@@ -18,10 +18,8 @@ public class Client {
 
         OrderController controller = new OrderController(orderFacade);
 
-        // 4. Create the Order Model
         Order myOrder = new Order("Wireless Noise-Cancelling Headphones", 299.99, "Alex Carter");
 
-        // 5. Test the flow using the Model
         controller.placeOrder(myOrder);
         System.out.println("--------------------------------------------------");
         controller.cancelOrder(myOrder);
