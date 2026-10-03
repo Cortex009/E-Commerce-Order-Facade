@@ -3,7 +3,7 @@ package com.ecommerce.order.SubSystems;
 public class InventoryService {
     public boolean checkStock(String item) {
         System.out.println("[Inventory] Checking stock for: " + item);
-        return true; // Simplified — always in stock for demo
+        return true; 
     }
 
     public void reduceStock(String item, int quantity) {
